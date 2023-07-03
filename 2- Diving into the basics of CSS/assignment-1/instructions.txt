@@ -4,4 +4,4 @@
 [done]4. Switch the order of the rules you created and use the dev tools of your browser to understand how specifity resolves conflicts (for the <code> elements).
 [done]5. Set a default font (e.g. sans-serif) for the entire content of your page and use "Inheritance" to change the font of the <li> items, too.
 [done = used adjacent combinator for this one]6. Use a combinator to give all <li> elements but the first one (!) a black background and white text color (don't worry if the numbers disappear).
-[to do]7. Use another combinator to now give all <li> inside an <ol> element a black background and white text color.
+[done = used child combinator]7. Use another combinator to now give all <li> inside an <ol> element a black background and white text color.

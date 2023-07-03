@@ -19,7 +19,14 @@ li{
     font-family: inherit;
 }
 
+/* 
+Using adjacent sibling selector
 li + li {
     background-color: black;
     color: white;
+} */
+
+ol > li{
+    background-color: black;
+    color: white;   
 }

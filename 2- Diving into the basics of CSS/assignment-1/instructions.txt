@@ -1,5 +1,5 @@
 [done]1. Style the above <h1> tag to use any color of your choice and a sans-serif font.
-[to do]2. Style all <code> tags to use the monospace font-family and have red text.
+[done]2. Style all <code> tags to use the monospace font-family and have red text.
 [to do]3. Use a class selector to ensure that the <code> elements in the second <li> element have a different color (e.g. green).
 [to do]4. Switch the order of the rules you created and use the dev tools of your browser to understand how specifity resolves conflicts (for the <code> elements).
 [to do]5. Set a default font (e.g. sans-serif) for the entire content of your page and use "Inheritance" to change the font of the <li> items, too.

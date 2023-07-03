@@ -2,3 +2,8 @@
     color: rgb(66, 66, 199);
     font-family: sans-serif;
 }
+
+code{
+    font-family: monospace,sans-serif;
+    color: red;
+}

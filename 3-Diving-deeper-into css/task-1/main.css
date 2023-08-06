@@ -1,30 +1,37 @@
-
-*{
-   margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    font-family: 'Lato', sans-serif;
-}
-
+/* .box{
+    padding: 10px;
+    border: 3px solid red;
+    margin: 20px;
+} */
+/* Its happening margin collapsing */
 .box{
-    margin: 300px; 
-    padding: 15px;
-    border: 4px solid #000;   
-    display: inline-block;
-}
-
-ol + .box{
+    padding: 5px 10px 15px 20px;
+    margin: 10px 20px 30px 40px;
+    border: 3px solid red;
     height: 300px;
-    width: 50%;
+    width: 48%;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0;
 }
 
-.main-box{
+html,
+body{
+    font-family: Lato,'sans-serif';
+    height: 100%;
+}
+
+/* If you dont set the parent elements of it, will occupy 100% of it parent no the page */
+/* #first-box{
+     height: 100%; 
+    visibility hidden
+
+} */
+
+#first-box{
     display: none;
 }
 
-.box:hover{
-    border-color: #ccc;
+div:last-of-type:hover{
+    border-color: green;
 }

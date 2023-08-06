@@ -1,0 +1,30 @@
+
+*{
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.box{
+    margin: 300px; 
+    padding: 15px;
+    border: 4px solid #000;   
+    display: inline-block;
+}
+
+ol + .box{
+    height: 300px;
+    width: 50%;
+}
+
+.main-box{
+    display: none;
+}
+
+.box:hover{
+    border-color: #ccc;
+}

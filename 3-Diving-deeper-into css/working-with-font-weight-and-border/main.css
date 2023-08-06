@@ -69,6 +69,7 @@ body {
     color: #0e4f1f;
     text-decoration: none;
     font-weight: bold;   
+    padding: 3px 0;
 }
 
 /*If you have two rules that shares the same declarators you can group them! Its not a combinator its a grouping rule because they have the same declarator*/

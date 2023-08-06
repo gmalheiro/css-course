@@ -78,3 +78,15 @@ body {
 .main-nav__item a:active{
     color: white;
 }
+
+/* .main-nav__item a::after{
+    content: "( Link)";
+    font-size: 22px;
+    color: red;
+}
+
+.main-nav__item a::before{
+    content: "(Click me)";
+    font-size: 22px;
+    color: red;
+} */

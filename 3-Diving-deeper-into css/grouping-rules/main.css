@@ -71,22 +71,8 @@ body {
 
 }
 
-.main-nav__item a:hover{
-    color: white;
-}
-
+/*If you have two rules that shares the same declarators you can group them! Its not a combinator its a grouping rule because they have the same declarator*/
+.main-nav__item a:hover,
 .main-nav__item a:active{
     color: white;
 }
-
-/* .main-nav__item a::after{
-    content: "( Link)";
-    font-size: 22px;
-    color: red;
-}
-
-.main-nav__item a::before{
-    content: "(Click me)";
-    font-size: 22px;
-    color: red;
-} */
